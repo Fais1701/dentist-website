@@ -1,5 +1,7 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>House of Dentistry | Mulund West</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"><style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>House of Dentistry | Mulund West</title><!-- Google Font --><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"><style>
+
+/* ---------------- GLOBAL VARIABLES ---------------- */
 
 :root{
 --primary:#0f766e;
@@ -9,11 +11,15 @@
 --text:#1f2937;
 }
 
+/* ---------------- RESET ---------------- */
+
 *{
 margin:0;
 padding:0;
 box-sizing:border-box;
 }
+
+/* ---------------- BODY ---------------- */
 
 body{
 font-family:'Poppins',sans-serif;
@@ -22,11 +28,15 @@ color:var(--text);
 line-height:1.6;
 }
 
+/* ---------------- CONTAINER ---------------- */
+
 .container{
 width:90%;
 max-width:1100px;
 margin:auto;
 }
+
+/* ---------------- NAVBAR ---------------- */
 
 nav{
 display:flex;
@@ -49,6 +59,8 @@ border-radius:.4rem;
 text-decoration:none;
 font-size:.9rem;
 }
+
+/* ---------------- HERO SECTION ---------------- */
 
 .hero{
 display:flex;
@@ -74,6 +86,8 @@ margin-top:.5rem;
 color:#4b5563;
 }
 
+/* ---------------- HERO BUTTONS ---------------- */
+
 .hero-buttons{
 display:flex;
 gap:1rem;
@@ -98,6 +112,8 @@ border:2px solid var(--primary);
 color:var(--primary);
 }
 
+/* ---------------- HERO IMAGE ---------------- */
+
 .hero-img{
 flex:1;
 min-width:280px;
@@ -108,6 +124,8 @@ width:100%;
 border-radius:1rem;
 }
 
+/* ---------------- SECTION ---------------- */
+
 .section{
 margin-top:4rem;
 }
@@ -117,6 +135,8 @@ text-align:center;
 margin-bottom:2rem;
 color:var(--secondary);
 }
+
+/* ---------------- SERVICES GRID ---------------- */
 
 .services{
 display:grid;
@@ -130,6 +150,8 @@ padding:1rem;
 border-radius:.7rem;
 box-shadow:0 5px 15px rgba(0,0,0,0.05);
 }
+
+/* ---------------- DOCTOR SECTION ---------------- */
 
 .doctor{
 display:flex;
@@ -147,6 +169,8 @@ width:200px;
 border-radius:1rem;
 }
 
+/* ---------------- GALLERY ---------------- */
+
 .gallery{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
@@ -157,6 +181,8 @@ gap:1rem;
 width:100%;
 border-radius:.7rem;
 }
+
+/* ---------------- FORM ---------------- */
 
 form{
 background:white;
@@ -192,12 +218,16 @@ border-radius:.4rem;
 cursor:pointer;
 }
 
+/* ---------------- MAP ---------------- */
+
 .map{
 width:100%;
 height:300px;
 border:none;
 border-radius:.7rem;
 }
+
+/* ---------------- FOOTER ---------------- */
 
 footer{
 text-align:center;
@@ -207,6 +237,8 @@ color:#6b7280;
 font-size:.9rem;
 }
 
+/* ---------------- RESPONSIVE ---------------- */
+
 @media(max-width:768px){
 
 .hero-text h1{
@@ -215,27 +247,31 @@ font-size:2rem;
 
 }
 
-</style></head><body><div class="container"><nav><div class="logo">House of Dentistry</div><a class="navbtn" href="#appointment">Book Appointment</a>
+</style></head><body><div class="container"><!-- ================= NAVBAR ================= --><nav><div class="logo">House of Dentistry</div><a class="navbtn" href="#appointment">Book Appointment</a>
 
-</nav><div class="hero"><div class="hero-text"><h1>Healthy Smiles Start Here</h1><p>Modern dental care in Mulund West with advanced treatments and patient-first care.</p><div class="hero-buttons"><a class="btn btn-primary" href="#appointment">Book Appointment</a>
+</nav><!-- ================= HERO ================= --><div class="hero"><div class="hero-text"><h1>Healthy Smiles Start Here</h1><p>Modern dental care in Mulund West with advanced treatments and patient-first care.</p><div class="hero-buttons"><a class="btn btn-primary" href="#appointment">Book Appointment</a>
 
 <a class="btn btn-outline" href="https://wa.me/918692062065">WhatsApp</a>
 
-</div></div><div class="hero-img"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5"></div></div><div class="section"><h2>Our Services</h2><div class="services"><div class="service">Teeth Whitening</div>
+<!-- NEW CALL BUTTON --><a class="btn btn-outline" href="tel:+918692062065">Call</a>
+
+</div></div><div class="hero-img"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5"></div></div><!-- ================= SERVICES ================= --><div class="section"><h2>Our Services</h2><div class="services"><div class="service">Teeth Whitening</div>
 <div class="service">Dental Implants</div>
 <div class="service">Root Canal Treatment</div>
 <div class="service">Braces & Clear Aligners</div>
 <div class="service">Cosmetic Dentistry</div>
 <div class="service">Smile Designing</div>
 <div class="service">Dental Cleaning</div>
-<div class="service">Dental X-Ray</div></div></div><div class="section"><h2>Meet the Dentist</h2><div class="doctor"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95"><div><h3>Dr. Shreya Singhi</h3><p>
+<div class="service">Dental X-Ray</div></div></div><!-- ================= DOCTOR ================= --><div class="section"><h2>Meet the Dentist</h2><div class="doctor"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95"><div><h3>Dr. Shreya Singhi</h3><p>
 Dr. Shreya Singhi is dedicated to providing modern and comfortable dental care.
 Her focus is on preventive dentistry, cosmetic treatments, and patient-first care
 to ensure healthy smiles for every patient.
-</p></div></div></div><div class="section"><h2>Clinic Gallery</h2><div class="gallery"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09">
+</p></div></div></div><!-- ================= GALLERY ================= --><div class="section"><h2>Clinic Gallery</h2><div class="gallery"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09">
 <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
-<img src="https://images.unsplash.com/photo-1588776813953-6a6d9c1b2c4e"></div></div><div class="section" id="appointment"><h2>Book Appointment</h2><form action="https://formspree.io/f/mzdjgvdn" method="POST"><input type="text" name="name" placeholder="Your Name" required><input type="tel" name="phone" placeholder="Phone Number" required><textarea name="problem" placeholder="Describe your dental concern"></textarea><button type="submit">Request Appointment</button>
+<img src="https://images.unsplash.com/photo-1588776813953-6a6d9c1b2c4e"></div></div><!-- ================= APPOINTMENT ================= --><div class="section" id="appointment"><h2>Book Appointment</h2><form action="https://formspree.io/f/mzdjgvdn" method="POST"><input type="text" name="name" placeholder="Your Name" required><input type="tel" name="phone" placeholder="Phone Number" required><textarea name="problem" placeholder="Describe your dental concern"></textarea><button type="submit">Request Appointment</button>
 
-</form></div><div class="section"><h2>Clinic Location</h2><iframe class="map" src="https://maps.google.com/maps?q=House%20of%20Dentistry%20Mulund%20West&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe></div><footer>© House of Dentistry – Mulund West
+</form></div><!-- ================= MAP ================= --><div class="section"><h2>Clinic Location</h2><iframe class="map"
+src="https://maps.google.com/maps?q=House%20of%20Dentistry%20Mulund%20West&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe></div><footer>© House of Dentistry – Mulund West
 
 </footer></div></body></html>
