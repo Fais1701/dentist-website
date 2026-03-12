@@ -1,8 +1,6 @@
 <!DOCTYPE html><html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>House of Dentistry | Mulund West</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"><style>
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>House of Dentistry | Mulund West</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"><style>
 
 *{
 margin:0;
@@ -15,17 +13,17 @@ font-family:'Poppins',sans-serif;
 background:#f4faf6;
 color:#2f3e34;
 line-height:1.6;
-padding:20px;
 }
 
 .container{
-max-width:900px;
+max-width:1000px;
 margin:auto;
+padding:20px;
 }
 
 .header{
 text-align:center;
-margin-bottom:25px;
+margin-bottom:30px;
 }
 
 .header h1{
@@ -60,20 +58,9 @@ font-size:14px;
 font-weight:500;
 }
 
-.call{
-background:#2e7d32;
-color:white;
-}
-
-.whatsapp{
-background:#25D366;
-color:white;
-}
-
-.directions{
-background:#1976d2;
-color:white;
-}
+.call{background:#2e7d32;color:white;}
+.whatsapp{background:#25D366;color:white;}
+.directions{background:#1976d2;color:white;}
 
 .card{
 background:white;
@@ -86,6 +73,17 @@ margin-top:20px;
 .card h2{
 color:#2e7d32;
 margin-bottom:12px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:10px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
 }
 
 .services{
@@ -132,22 +130,31 @@ button:hover{
 background:linear-gradient(135deg,#388e3c,#4caf50);
 }
 
+.map{
+width:100%;
+height:300px;
+border:none;
+border-radius:10px;
+}
+
 .footer{
 text-align:center;
-margin-top:25px;
+margin-top:30px;
 font-size:13px;
 color:#7a8c7c;
 }
 
-</style></head><body><div class="container"><div class="header"><h1>House of Dentistry</h1>
-<p>Mulund West, Mumbai</p><div class="rating">★★★★★ 5.0 (120 Reviews)</div><div class="actions">
+</style></head><body><div class="container"><div class="header"><h1>House of Dentistry</h1><p>Mulund West, Mumbai</p><div class="rating">★★★★★ 5.0 (120 Reviews)</div><div class="actions">
 <a class="call" href="tel:8692062065">Call</a>
 <a class="whatsapp" href="https://wa.me/918692062065">WhatsApp</a>
 <a class="directions" href="https://maps.google.com/?q=House+of+Dentistry+Mulund+West">Directions</a>
+</div></div><div class="card"><h2>Clinic Photos</h2><div class="gallery">
+<img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5">
+<img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09">
+<img src="https://images.unsplash.com/photo-1588776813953-6a6d9c1b2c4e">
 </div></div><div class="card"><h2>Book Appointment</h2><form action="https://formspree.io/f/mzdjgvdn" method="POST"><input type="text" name="name" placeholder="Your Name" required><input type="tel" name="phone" placeholder="Phone Number" required><textarea name="problem" placeholder="Describe your dental concern"></textarea><button type="submit">Book Appointment</button>
 
-</form></div><div class="card"><h2>Services</h2><div class="services">
-<div class="service">Teeth Whitening</div>
+</form></div><div class="card"><h2>Services</h2><div class="services"><div class="service">Teeth Whitening</div>
 <div class="service">Dental Implants</div>
 <div class="service">Root Canal</div>
 <div class="service">Braces</div>
@@ -158,8 +165,10 @@ color:#7a8c7c;
 <div class="service">Dental X-ray</div>
 <div class="service">Extractions</div>
 <div class="service">Dentures & Bridges</div>
-<div class="service">Cosmetic Dentistry</div>
-</div></div><div class="card"><h2>Clinic Address</h2><p>
+<div class="service">Cosmetic Dentistry</div></div></div><div class="card"><h2>Clinic Location</h2><iframe
+class="map"
+src="https://maps.google.com/maps?q=House%20of%20Dentistry%20Mulund%20West&t=&z=15&ie=UTF8&iwloc=&output=embed">
+</iframe></div><div class="card"><h2>Address</h2><p>
 Shop No: 3, Shri Ram Niwas Building<br>
 Ganesh Gawade Rd, Opp. Old Pragati Hospital<br>
 Mulund West, Mumbai – 400080
