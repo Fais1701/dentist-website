@@ -2,102 +2,170 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SmileCare Dental Clinic</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet"><style>
+<title>House of Dentistry | Mulund West</title><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"><style>
+
 *{
-  box-sizing:border-box;
-  margin:0;
-  padding:0;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 body{
-  font-family:'Poppins',sans-serif;
-  background:linear-gradient(135deg,#e8f5e9,#f1f8e9);
-  min-height:100vh;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  padding:20px;
-  color:#2e3d2f;
+font-family:'Poppins',sans-serif;
+background:#f4faf6;
+color:#2f3e34;
+line-height:1.6;
+padding:20px;
 }
 
 .container{
-  width:100%;
-  max-width:420px;
+max-width:900px;
+margin:auto;
+}
+
+.header{
+text-align:center;
+margin-bottom:25px;
+}
+
+.header h1{
+font-size:34px;
+color:#2e7d32;
+}
+
+.header p{
+color:#6c8a74;
+margin-top:5px;
+}
+
+.rating{
+margin-top:8px;
+color:#f4b400;
+font-weight:500;
+}
+
+.actions{
+margin-top:15px;
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.actions a{
+text-decoration:none;
+padding:10px 16px;
+border-radius:8px;
+font-size:14px;
+font-weight:500;
+}
+
+.call{
+background:#2e7d32;
+color:white;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+}
+
+.directions{
+background:#1976d2;
+color:white;
 }
 
 .card{
-  background:#ffffff;
-  padding:30px;
-  border-radius:14px;
-  box-shadow:0 12px 30px rgba(0,0,0,0.08);
-  text-align:center;
+background:white;
+padding:25px;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,0.07);
+margin-top:20px;
 }
 
-h1{
-  font-size:28px;
-  color:#2e7d32;
-  margin-bottom:6px;
+.card h2{
+color:#2e7d32;
+margin-bottom:12px;
 }
 
-.subtitle{
-  color:#6b8e6b;
-  margin-bottom:22px;
-  font-size:15px;
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+gap:10px;
+}
+
+.service{
+background:#e8f5e9;
+padding:8px 10px;
+border-radius:6px;
+font-size:14px;
 }
 
 input, textarea{
-  width:100%;
-  padding:14px;
-  margin-top:12px;
-  border-radius:8px;
-  border:1px solid #d6e4d8;
-  font-family:'Poppins',sans-serif;
-  font-size:14px;
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:8px;
+border:1px solid #d6e4d8;
+font-family:'Poppins',sans-serif;
+font-size:14px;
 }
 
 textarea{
-  height:100px;
-  resize:none;
+height:90px;
+resize:none;
 }
 
 button{
-  width:100%;
-  padding:14px;
-  margin-top:18px;
-  border:none;
-  border-radius:8px;
-  background:linear-gradient(135deg,#43a047,#66bb6a);
-  color:white;
-  font-size:15px;
-  font-weight:600;
-  cursor:pointer;
+width:100%;
+padding:13px;
+margin-top:14px;
+border:none;
+border-radius:8px;
+background:linear-gradient(135deg,#43a047,#66bb6a);
+color:white;
+font-weight:600;
+cursor:pointer;
 }
 
 button:hover{
-  background:linear-gradient(135deg,#388e3c,#4caf50);
+background:linear-gradient(135deg,#388e3c,#4caf50);
 }
 
 .footer{
-  margin-top:18px;
-  font-size:12px;
-  color:#8a9a8b;
+text-align:center;
+margin-top:25px;
+font-size:13px;
+color:#7a8c7c;
 }
-</style></head><body><div class="container">  <div class="card"><h1>SmileCare Dental</h1>
-<p class="subtitle">Book your dental appointment</p>
 
-<form action="https://formspree.io/f/mzdjgvdn" method="POST">
+</style></head><body><div class="container"><div class="header"><h1>House of Dentistry</h1>
+<p>Mulund West, Mumbai</p><div class="rating">★★★★★ 5.0 (120 Reviews)</div><div class="actions">
+<a class="call" href="tel:8692062065">Call</a>
+<a class="whatsapp" href="https://wa.me/918692062065">WhatsApp</a>
+<a class="directions" href="https://maps.google.com/?q=House+of+Dentistry+Mulund+West">Directions</a>
+</div></div><div class="card"><h2>Book Appointment</h2><form action="https://formspree.io/f/mzdjgvdn" method="POST"><input type="text" name="name" placeholder="Your Name" required><input type="tel" name="phone" placeholder="Phone Number" required><textarea name="problem" placeholder="Describe your dental concern"></textarea><button type="submit">Book Appointment</button>
 
-  <input type="text" name="name" placeholder="Your Name" required>
-
-  <input type="tel" name="phone" placeholder="Phone Number" required>
-
-  <textarea name="problem" placeholder="Describe your dental concern"></textarea>
-
-  <button type="submit">Book Appointment</button>
-
-</form>
-
-<p class="footer">Healthy smiles start here</p>
-
-  </div></div></body>
+</form></div><div class="card"><h2>Services</h2><div class="services">
+<div class="service">Teeth Whitening</div>
+<div class="service">Dental Implants</div>
+<div class="service">Root Canal</div>
+<div class="service">Braces</div>
+<div class="service">Clear Aligners</div>
+<div class="service">Smile Designing</div>
+<div class="service">Teeth Cleaning</div>
+<div class="service">Laser Dentistry</div>
+<div class="service">Dental X-ray</div>
+<div class="service">Extractions</div>
+<div class="service">Dentures & Bridges</div>
+<div class="service">Cosmetic Dentistry</div>
+</div></div><div class="card"><h2>Clinic Address</h2><p>
+Shop No: 3, Shri Ram Niwas Building<br>
+Ganesh Gawade Rd, Opp. Old Pragati Hospital<br>
+Mulund West, Mumbai – 400080
+</p><p style="margin-top:8px;">
+Opening Hours: 9:30 AM – 8:00 PM
+</p></div><div class="footer">
+© House of Dentistry – Mulund West
+</div></div></body>
 </html>
